@@ -1,0 +1,63 @@
+p {
+    color: #ffff;
+    font-size: 1rem;
+}
+h {
+    color: #ffff;
+    font-size: 2rem;
+}
+.link:link {
+    color: #ffff;
+}
+.link:visited {
+    color: #ffff;
+}
+.link:hover {
+    color: rgb(226, 214, 43);
+}
+.link:active {
+    color: #ffff;
+}
+body {
+    background-image: url("../assets/images/backdrops/shaders.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+li {
+    float: left;
+    padding: 10px;
+}
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #161671;
+}
+hr {
+    border-radius: 1px;
+    color: #161671;
+}
+.content {
+    padding: 5vw;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #161671;
+    text-align: center;
+}
