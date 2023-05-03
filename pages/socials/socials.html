@@ -10,19 +10,30 @@
         <meta name="author" content="LionPlayz">
     </head>
     <body class="body">
+        <header class="header">
+            <ul class="navbar">
+                <li><a>Home</a></li>
+                <li><a>Videos</a></li>
+                <li><a>Tutorials</a></li>
+                <li><a>Socials</a></li>
+                <li style="float:right"><a class="active">About</a></li>
+            </ul>
+            <hr>
+        </header>
         <div class="content">
-            <p>This part of my website requires cookies.</p>
-            <video src="../../assets/videos/rick-roll.mp4" id="MainVideovid" style="display: none; margin: auto; border-radius: 10px; -webkit-box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 26%); box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 26%)"></video>
-            <button id="show_modal" style="display: none;" data-bs-toggle="modal" data-bs-target="#cookie_modal"></button>
-            <div class="modal fade" id="cookie_modal" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                <div class="modal-footer">
-                    <p></p>
-                    <button type="button" class="btn-primary" id="close_modal" data-bs-dismiss="modal">Accept Cookies and Continue</button>
-                    <button type="button" class="btn-primary" id="close_modal" data-bs-dismiss="modal">Reject All Cookies and Leave</button>
-                </div>
+            <p id="msg" class="msg" style="display: none;">Gottem lol</p>
+            <video id="video" class="video" src="../../assets/videos/rick-roll.mp4" style="display: none;"></video>
+            <button id="show-modal" class="show-modal"></button>
+            <div id="cookie-modal">
+                <p>This part of my website uses cookies.</p>
+                <button type="button" class="btn-primary" id="close_modal" data-bs-dismiss="modal">Accept Cookies</button>
+                <button type="button" class="btn-primary" id="close_modal" data-bs-dismiss="modal">Reject all Cookies</button>
             </div>
         </div>
-        <script src="../../global/global.js"></script>
+        <footer class="footer">
+            <p class="paragraph"><a class="link" style="text-decoration: underline;">Socials</a> | <a class="link" style="text-decoration: underline;">lionplayz12@gmail.com</a> | 2023 LionPlayz</p>
+        </footer>
+        <script src="../../global/global.js"></script> 
         <script src="./script.js"></script> 
     </body>
 </html>

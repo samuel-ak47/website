@@ -1,10 +1,26 @@
+h {
+    color: #ffff;
+    font-size: 2rem;
+}
 p {
     color: #ffff;
     font-size: 1rem;
 }
-h {
-    color: #ffff;
+.h-inv {
+    color: black;
     font-size: 2rem;
+}
+.p-inv {
+    color: black;
+    font-size: 1rem;
+}
+.h-b {
+    color: #161671;
+    font-size: 2rem;
+}
+.p-b {
+    color: #161671;
+    font-size: 1rem;
 }
 .link:link {
     color: #ffff;
@@ -29,7 +45,7 @@ h {
     font-size: 16px;
 }
 body {
-    background-image: url("../assets/images/backdrops/shaders.webp");
+    background-image: url("../assets/images/backdrops/backdrop.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
