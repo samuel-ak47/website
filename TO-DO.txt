@@ -1,3 +1,5 @@
+- Update the backdrop to work on all screensh
+
 - Update all page descriptions
 
 - Create a home page

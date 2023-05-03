@@ -1,8 +1,14 @@
-.container {
+.outer {
     border-style: solid;
-    border-radius: 3px;
-    border-color: #161671;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
     text-align: center;
     padding: 2rem;
-    background-color: rgb(11, 151, 175);
+}
+.inner {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
 }
