@@ -1,4 +1,4 @@
-- Update the backdrop to work on all screensh
+- Update the backdrop to work on all screens
 
 - Update all page descriptions
 
