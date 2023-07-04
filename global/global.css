@@ -43,6 +43,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 3px;
 }
 body {
     /*background-image: url("../assets/images/backdrops/backdrop.webp");
